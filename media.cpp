@@ -7,7 +7,7 @@ int main () {
 	cout << "Digite sua segunda nota: (0 - 10) \n";
 	cin >> nota2;
 	if (nota1 < 0 || nota1 > 10 || nota2 < 0 || nota2 > 10) {
-		cout << "Nota invalida \n";
+	  cout << "Nota invalida \n";
 	}
 	media = (nota1 + nota2) / 2;
 	cout << "Sua media foi: " << media << endl; 
