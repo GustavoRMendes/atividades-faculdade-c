@@ -1,0 +1,44 @@
+Revisão Algoritmos e Estrutura de Dados 
+
+Busca, Ordenação e Seleção
+
+Função de Busca:
+	- Busca: ato de encontrar um elemento específico em um conjunto de dados
+	- Elemento Alvo: é o que estamos tentato localizar durante a busca. É o item mais específico que desejamos encontrar no conjunto de dados
+	- Conjunto de dados: conjunto completo de elementos no qual estamos realizando a busca. Pode ser uma lista, vetor, matriz, banco de dados
+	- Algoritmo de busca: é um conjunto de instruções bem definidas que descreve como procurar um elemento em um conjunto de dados.
+
+
+Função de Seleção:
+	- Conjunto de dados: O grupo de elementos a partir do qual  você  deseja  selecionar elementos que atendam a critérios específicos.
+	- Critérios de seleção:As condições ou regras que deteminam quais elementos do conjunto de dados serão selecionados. 
+	- Complexidade de tempo: A medida de quanto tempo um algoritmo  leva  para  encontrar  os elementos  desejados  no  conjunto de dados
+	- Complexidade de espaço: A medida de quanto espaço de memória   é   necessário   para executar o algoritmo.
+	- Estabilidade: A  capacidade  do  algoritmo  de preservar  a  ordem  relativa  dos elementos  no  conjunto  de  dados após a seleção.
+	- Confiabilidade: A  capacidade  do  algoritmo  de garantir  que  nenhum  elemento relevante seja omitido
+	- Robustez: A  capacidade  do  algoritmo  de lida com diferentes tipos de dados e condições sem quebrar ou gerar resultados incorretos.
+	- Aplicabilidade: A adequação do algoritmo para resolver o problema específico em questão.
+	
+
+Função de Ordenação:
+	- Ordenação: A  ordenação  é  o  processo  de organizar   os   elementos   de   um conjunto de  dados  em  uma  ordem específica. A  ordenação  é  útil  para  facilitar  a pesquisa  eficiente,  tornar  os  dados mais legíveis e organizar informações de maneira útil.
+	- Elementos Ordenados: Após  a  ordenação,  os  elementos podem  estar  dispostos  em  ordem crescente,  decrescente  ou  seguindo outra lógica específica. A ordem depende dos requisitos do problema.
+	- Algoritmo de ordenação: Algoritmo  de  ordenação  é  um conjunto  de  instruções  que  descreve como  rearranjar  os  elementos  de  um conjunto de dados para que fiquem em uma ordem desejada Os  algoritmos  de  ordenação apresentam variação quanto a sua complexidade e eficiência.
+	
+	
+Algoritmos de Busca , Seleção e Ordenação
+Algoritmos   de   busca,   seleção   e ordenação são fundamentais na ciência da computação  e  são  usados  em  uma variedade de aplicações, desde pesquisas na  web  até  processamento  de  dados  e organização de informações. 
+
+Os  algoritmos  de  busca,  seleção  e ordenação são ferramentas importantes em programação que permitem que os programas  procurem,  selecionem  e organizem dados de maneira eficiente e rápida.
+
+Os  algoritmos  de  busca  são usados  para encontrar  elementos  específicos  em  conjuntos  de dados,  já  os  algoritmos  de  seleção identificar elementos  que  atendam  a  critérios  específicos dentro  de  um  conjunto  de  dados,  enquanto  os algoritmos de ordenação são usados para organizar os elementos em uma ordem desejada
+
+Os  algoritmos  de  busca são  usados para encontrar elementos específicos em  conjuntos  de  dados,  enquanto  os algoritmos  de  ordenação são  usados para organizar os elementos em uma ordem desejada.
+
+
+Algoritmos de busca,seleção e ordenação em C++ são importantes pela:
+ Eficiência: Algoritmos  de  busca,  seleção  e  ordenação eficientes são  essenciais  para  melhorar  o desempenho  de  programas  em  C++. Isso porque, em muitos casos, a eficiência desses algoritmos pode afetar diretamente o tempo de execução do programa.
+ Facilidade de uso:Algoritmos de busca, seleção e ordenação são algoritmos  muito  comuns  em  programação,  por isso, a maioria das linguagens de programação, incluindo C++, já possui funções e bibliotecas prontas  para  utilização  desses  algoritmos. Isso torna  a  tarefa  de  implementação  desses algoritmos mais fácil e rápida. ;
+ Reutilização de código: Algoritmos de busca, seleção e ordenação são  comuns  em  muitos  programas.  Ao utilizar  funções  prontas  disponíveis  em bibliotecas  padrão,  é  possível  reutilizar código    já    testado    e    validado, economizando tempo e recursos;
+ Melhor experiência do usuário: Algoritmos   de   busca,   seleção   e ordenação são frequentemente utilizados em aplicações que precisam lidar com grandes  quantidades  de  dados, como sistemas de gerenciamento de banco de dados e sistemas de busca na web. 
+
