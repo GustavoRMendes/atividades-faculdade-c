@@ -1,0 +1,68 @@
+Algoritmos de Busca
+Os  algoritmos  de  busca  são usados  para  encontrar  elementos 
+específicos   em   conjuntos  de dados 
+
+Em  C++  os  algoritmos  de  busca mais comuns são:
+	Busca Linear;
+	Busca Binária;
+	Busca Ternária;
+	Busca por Interpolação.
+
+
+Busca Linear
+A Busca Linear é um método utilizado para encontrar um determinado elemento em uma lista,   percorrendo   cada   item   da   lista sequencialmente   até   que   o   elemento desejado seja encontrado ou até que todos os elementos tenham sido examinados. 
+A  Busca  Linear  é  caracterizado  por sua simplicidade e eficácia em listas não ordenadas, mas pode ser ineficiente em listas muito grandes, já que é necessário examinar cada item individualmente
+A busca linear inicia pelo primeiro item da lista e verifique se ele é igual ao elemento desejado. Se não for, passa para o próximo item e repita o processo até encontrar o elemento desejado ou até que todos os itens tenham sido examinados. 
+O tempo de execução da busca linear aumenta linearmente com o tamanho da lista, o que pode torná-la menos eficiente em comparação com métodos de busca mais  sofisticados,  especialmente  em conjuntos de dados muito grandes
+A  busca  linear  é  relativamente simples de implementar e compreender, mas pode não ser a melhor escolha em todos   os   cenários,   especialmente quando  se  lida  com  grandes  volumes de dados.
+Em   grandes   volumes   de   dados, algoritmos de busca mais eficientes, como a  busca  binária  em  listas  ordenadas  ou estruturas  de  dados  mais  complexas,como  tabelas  de  hash  ou  árvores  de busca, podem ser preferíveis
+Em  listas  pequenas  ou  quando  a ordem   dos   elementos   não   é significativa,  a  busca  linear  ainda pode ser uma opção viável e fácil de implementar.
+
+A Busca Linear possui como vantagem:
+	 Simplicidade (fácil de entender e implementar); 
+	 Funciona em qualquer lista (aplicada a qualquer 
+tipo de lista ou coleção de elementos);
+	 Não  requer  ordenação  (não  depende  da 
+ordenação prévia da lista);
+	 Baixa  complexidade  de  memória  (não  requer 
+memória adicional significativa).
+--------------------------------------------------------------
+Busca Linear – Desvantagens
+	 Baixa  eficiência  em  listas  grandes  (examina  cada 
+elemento da lista individualmente);
+	 Não é apropriada para grandes conjuntos de dados 
+(a busca  pode ser extremamente lenta);
+	 Ineficiente  em  buscas  repetidas  (ao  procurar  o 
+mesmo valor várias vezes pode se tornar ineficiente);
+	 Não encontra valores rapidamente. 
+	
+	
+	
+Busca Binária
+A   busca   binária   opera   dividindo repetidamente   a   lista   em   metades, descartando a metade na qual o elemento não  pode  estar,  até  que  o  elemento desejado  seja  encontrado  ou  até  que reste apenas um elemento na lista.
+O algoritmo que utiliza busca binária inicia:
+ Comparando o elemento que está no meio da lista com o elemento procurado. 
+ Se forem iguais, o algoritmo termina com sucesso.
+ Se o elemento do meio for maior que o elemento procurado, a busca continua na metade inferior da lista. 
+ Se for menor, a busca continua na metade superior
+
+O   processo   de   divisão   e comparação  é  repetido  até  que  o elemento desejado seja encontrado ou até que não haja mais elementos para examinar. 
+A  busca  binária  é  eficiente porque   a   cada   passo,   a quantidade   de   elementos   a serem  examinados  é  reduzida pela metade.
+Em grandes conjuntos de dados, a busca binária pode encontrar um elemento  muito  mais  rapidamente do que algoritmos de busca linear.
+
+Como vantagem a Busca Binária temos:
+ Alta eficiência, com complexidade de tempo em 
+listas ordenadas;
+ Desempenho  consistente,  independentemente 
+do tamanho da lista;
+ Encontra   valores   rapidamente   em   listas 
+grandes.
+-----------------------------------
+Como desvantagem a Busca Binária temos:
+ Requer que a lista seja ordenada previamente;
+ Limitada  à  busca  de  valores  específicos  na  lista 
+ordenada;
+ Implementação  mais  complexa  do  que  a  busca 
+linear;
+ Requer mais memória devido à divisão recursiva ou 
+iterativa da lista
