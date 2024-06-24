@@ -1,0 +1,83 @@
+Algoritmos de Seleção 
+
+Os  algoritmos  de  seleção  são  uma categoria de algoritmos de ordenação e busca que têm o objetivo de encontrar o elemento  desejado  em  uma  coleção  de dados  ou  ordenar  a  coleção  de  acordo com algum critério.
+Os  algoritmos  de  seleção  são úteis     em     uma     variedade de cenários,   desde   classificação de listas até otimização de processos
+
+Os  algoritmos  de  seleção  mais 
+comuns são:
+ Selection Sort;
+ QuickSelect;
+ HeapSort.
+
+O Select Sort é um dos algoritmos de seleção e ordenação mais simples.
+O Select Sort seleciona iterativamente o menor elemento e movendo-o para a posição correta, de modo a ordena a lista
+O Select Sort possui como vantagem:
+ Simplicidade;
+ Facilidade de Implementação.
+
+-------------------------------------
+As desvantagens do Select Sort são:
+ Ineficiência em Grandes Conjuntos de 
+Dados;
+ Falta de Estabilidade
+
+
+
+QuickSelect é  um  algoritmo de seleção    para    encontrar o “menor"  ou  “maior"  elemento  de uma lista não ordenada
+uma    variação    do algoritmo  de  ordenação  rápida  (QuickSort), mas,     ao     contrário     do     QuickSort,     a QuickSelect não ordena todos os elementos, o que a torna eficiente para a seleção rápida de elementos desejados em uma lista
+O    algoritmo    QuickSelect    possui  como vantagem:
+ Eficiência de tempo;
+ Não requer ordenação completa;
+ Adaptação a grandes conjuntos de 
+dados.
+A QuickSelect tem um desempenho  médio  linear,  o  que  a torna  extremamente  eficiente  para encontrar    elementos    em    listas desordenadas.
+A  QuickSelect  não  ordena  toda a   lista,   economizando   tempo   e recursos computacionais.
+A  QuickSelect  é  especialmente útil    em    grandes    conjuntos de dados, onde a ordenação completa seria   dispendiosa   em   termos de tempo e memória
+
+-----------------------------------------
+As  desvantagens  do  QuickSelect são:
+ Desempenho no pior caso;
+ Estabilidade.
+O desempenho da QuickSelect pode  ser  ruim  no  pior  caso,  com um tempo se a escolha do pivô for sempre   o   elemento   mínimo   ou máximo.
+A  QuickSelect  não  mantém  a estabilidade da ordem original dos elementos,  o  que  pode  ser  um problema em certos contextos
+As  aplicações  práticas  para  o  uso  do 
+QuickSelect são:
+ Seleção de elementos em algoritmos de 
+ordenação;
+ Resolução de problemas de seleção online;
+ Análise de dados em ciência de dados;
+ Estatísticas em bancos de dados.
+
+HeapSort
+
+Este método introduz outra técnica em algoritmos,o uso de uma estrutura de dados chamada “HEAP” para gerenciar informações durante a execução do algoritmo.
+O  heapsort  utiliza  a  seleção em árvore binária para a obtenção  dos  elementos  de  um vetor na ordem desejada.
+O heapsort é executado em 2 etapas:
+
+1ª  Etapa  – Construção   da   árvore binária  heap  com  os  elementos  do  vetor(ou lista);
+2ª  Etapa  – Usa-se este heap construído  para  a  seleção  dos  elemento
+
+Uma  árvore  binária  Heap  é  uma árvore em que os nós ascendentes são sempre  maiores  que  os  descendentes, ou seja o nó pai é sempre maior que os nós filhos.
+
+O Vetor ou lista será transformada em uma árvore binária Heap
+Construindo a árvore heap
+
+O  algoritmo  testa  se  o  Nó  Pai  é maior que os nós filhos, se for ele não faz nada. Caso  contrário,  ele  testa  qual  filho  é maior  (se  o  esquerdo  ou  direito)  e  o troca pelo Nó Pai.
+Em  uma  árvore  Heap,  todos  os  nós descendentes  são  menores  que  os  nós ascendentes, ou seja os nós pais maiores que os nós filhos.Outra propriedade importante é que na Árvore Heap, a raiz  principal terá sempre o maior elemento da árvore. 
+As  vantagens  do  uso  do  Heapsort são:
+ Estabilidade;
+ Complexidade de Tempo Garantida;
+ Espaço Adicional Mínimo.
+O  Heapsort  é  um  algoritmo estável,   o   que   significa   que a ordem    relativa    de    elementos iguais não é alterada.
+A  complexidade  de  tempo  do Heapsort é consistente e garantida, independentemente da entrada.
+O    Heapsort    requer    um espaço   adicional   mínimo,   já que opera in-place.
+
+------------------------------------------
+As  desvantagens  que  a  Heapsort 
+apresenta são:
+ Não é Tão Rápido em Média;
+ Requer  uma  Estrutura  de  Dados 
+Adicional
+
+Em média, o Heapsort pode não ser tão rápido quanto alguns outros algoritmos  de  ordenação,  como  o Quicksort, em determinadas situações.
+O Heapsort requer uma estrutura de dados adicional (heap), o que pode adicionar complexidade à implementação.
